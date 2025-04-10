@@ -1,0 +1,40 @@
+# set default-bg "#000000"
+# set default-fg "#ffffff"
+# set statusbar-bg "#111111"
+# set statusbar-fg "#bbbbbb"
+# set inputbar-bg "#111111"
+# set inputbar-fg "#ffffff"
+# set completion-bg "#111111"
+# set completion-fg "#ffffff"
+# set recolor "true"
+# set recolor-keephue "true"
+#
+
+# Background e testo
+set default-bg "#1a1b26" # Colore background TokyoNight
+set default-fg "#c0caf5" # Colore testo chiaro (TokyoNight)
+
+# Colorazione status bar e input bar (misto TokyoNight + Catppuccin)
+set statusbar-bg "#16161e"  # Dark Grey Catppuccin
+set statusbar-fg "#f5c2e7"  # Pinkish White Catppuccin
+set inputbar-bg "#1f1f28"  # Grigio scuro
+set inputbar-fg "#f5c2e7"  # Pinkish White Catppuccin
+
+# Completion (riga di completamento)
+set completion-bg "#24273a"  # Blu scuro TokyoNight
+set completion-fg "#c0caf5"  # Bianco chiaro TokyoNight
+
+# Abilitare la modalità "recolor" per invertire i colori dei PDF
+set recolor "true"
+set recolor-keephue "true"
+
+# Colori per link, selezione, e hover
+set highlight-bg "#3b4261"  # Blue-grey Catppuccin
+set highlight-fg "#f5c2e7"  # Pinkish White Catppuccin
+set active-bg "#7aa2f7"  # Blueish (TokyoNight)
+set active-fg "#16161e"  # Dark background (TokyoNight)
+
+# Modifica dimensione del font
+set font "Fira Code 12"
+
+
