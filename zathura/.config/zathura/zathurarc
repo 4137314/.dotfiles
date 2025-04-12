@@ -37,4 +37,6 @@ set active-fg "#16161e"  # Dark background (TokyoNight)
 # Modifica dimensione del font
 set font "Fira Code 12"
 
+set selection-clipboard clipboard
+
 
