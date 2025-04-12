@@ -1,0 +1,425 @@
+time 1727894924
+new [description:"Meditazione" due:"1727906400" entry:"1727894924" modified:"1727894924" recur:"daily" rtype:"periodic" status:"recurring" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+---
+time 1727894926
+new [description:"Meditazione" due:"1727906400" entry:"1727894926" imask:"0" modified:"1727894924" parent:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0" recur:"daily" rtype:"periodic" status:"pending" uuid:"326ef6f5-4abc-43db-b263-43063293e837"]
+---
+time 1727894926
+old [description:"Meditazione" due:"1727906400" entry:"1727894924" modified:"1727894924" recur:"daily" rtype:"periodic" status:"recurring" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+new [description:"Meditazione" due:"1727906400" entry:"1727894924" mask:"-" modified:"1727894926" recur:"daily" rtype:"periodic" status:"recurring" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+---
+time 1727894977
+old [description:"Meditazione" due:"1727906400" entry:"1727894924" mask:"-" modified:"1727894926" recur:"daily" rtype:"periodic" status:"recurring" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+new [description:"Meditazione" due:"1727906400" entry:"1727894924" mask:"+" modified:"1727894977" recur:"daily" rtype:"periodic" status:"recurring" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+---
+time 1727894977
+old [description:"Meditazione" due:"1727906400" entry:"1727894926" imask:"0" modified:"1727894924" parent:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0" recur:"daily" rtype:"periodic" status:"pending" uuid:"326ef6f5-4abc-43db-b263-43063293e837"]
+new [description:"Meditazione" due:"1727906400" end:"1727894977" entry:"1727894926" imask:"0" modified:"1727894977" parent:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0" recur:"daily" rtype:"periodic" status:"completed" uuid:"326ef6f5-4abc-43db-b263-43063293e837"]
+---
+time 1727895670
+old [description:"Meditazione" due:"1727906400" entry:"1727894924" mask:"+" modified:"1727894977" recur:"daily" rtype:"periodic" status:"recurring" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+new [annotation_1727895662:"all" description:"Meditazione" due:"1727906400" end:"1727895662" entry:"1727894924" mask:"+" modified:"1727895670" recur:"daily" rtype:"periodic" status:"deleted" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+---
+time 1727895675
+old [annotation_1727895662:"all" description:"Meditazione" due:"1727906400" end:"1727895662" entry:"1727894924" mask:"+" modified:"1727895670" recur:"daily" rtype:"periodic" status:"deleted" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+new [annotation_1727895662:"all" description:"Meditazione" due:"1727906400" end:"1727895662" entry:"1727894924" mask:"X" modified:"1727895675" recur:"daily" rtype:"periodic" status:"deleted" uuid:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0"]
+---
+time 1727895675
+old [description:"Meditazione" due:"1727906400" end:"1727894977" entry:"1727894926" imask:"0" modified:"1727894977" parent:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0" recur:"daily" rtype:"periodic" status:"completed" uuid:"326ef6f5-4abc-43db-b263-43063293e837"]
+new [annotation_1727895670:"all" description:"Meditazione" due:"1727906400" end:"1727894977" entry:"1727894926" imask:"0" modified:"1727895675" parent:"05ab74ce-cdfe-4fda-a674-8a6caceb9ec0" recur:"daily" rtype:"periodic" status:"deleted" uuid:"326ef6f5-4abc-43db-b263-43063293e837"]
+---
+time 1727900825
+new [description:"Meditazione" entry:"1727900825" modified:"1727900825" status:"pending" uuid:"7e7d8d70-7b32-4086-834b-0d106209226e"]
+---
+time 1727900896
+old [description:"Meditazione" entry:"1727900825" modified:"1727900825" status:"pending" uuid:"7e7d8d70-7b32-4086-834b-0d106209226e"]
+new [description:"Meditazione" end:"1727900896" entry:"1727900825" modified:"1727900896" status:"completed" uuid:"7e7d8d70-7b32-4086-834b-0d106209226e"]
+---
+time 1727900918
+new [description:"Meditazione" entry:"1727900918" modified:"1727900918" status:"pending" uuid:"beee4294-4c3b-407b-b4cd-aff78a528bc6"]
+---
+time 1727900951
+old [description:"Meditazione" entry:"1727900918" modified:"1727900918" status:"pending" uuid:"beee4294-4c3b-407b-b4cd-aff78a528bc6"]
+new [description:"Meditazione" end:"1727900951" entry:"1727900918" modified:"1727900951" status:"completed" uuid:"beee4294-4c3b-407b-b4cd-aff78a528bc6"]
+---
+time 1727901400
+new [description:"Matematica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"c99a1faa-ff1f-4f95-817e-759126414c1f"]
+---
+time 1727901400
+new [description:"Fisica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"85aeadd2-d809-440d-ba7d-aad8d04c3b0d"]
+---
+time 1727901400
+new [description:"Elettronica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"cffc75c7-7da4-486a-8b6c-e63f6ee7c58c"]
+---
+time 1727901400
+new [description:"Comunicazioni" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"e170d7ad-14bb-4364-b4f5-4893676c5949"]
+---
+time 1727901400
+new [description:"Informatica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"4e85d213-3c07-421c-b027-266c5ce66799"]
+---
+time 1727950084
+old [description:"Matematica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"c99a1faa-ff1f-4f95-817e-759126414c1f"]
+new [description:"Matematica" entry:"1727901400" modified:"1727950084" project:"Matematica" status:"pending" uuid:"c99a1faa-ff1f-4f95-817e-759126414c1f"]
+---
+time 1727950102
+old [description:"Fisica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"85aeadd2-d809-440d-ba7d-aad8d04c3b0d"]
+new [description:"Fisica" entry:"1727901400" modified:"1727950102" project:"Fisica" status:"pending" uuid:"85aeadd2-d809-440d-ba7d-aad8d04c3b0d"]
+---
+time 1727950105
+old [description:"Elettronica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"cffc75c7-7da4-486a-8b6c-e63f6ee7c58c"]
+new [description:"Elettronica" entry:"1727901400" modified:"1727950105" project:"Elettronica" status:"pending" uuid:"cffc75c7-7da4-486a-8b6c-e63f6ee7c58c"]
+---
+time 1727950109
+old [description:"Comunicazioni" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"e170d7ad-14bb-4364-b4f5-4893676c5949"]
+new [description:"Comunicazioni" entry:"1727901400" modified:"1727950109" project:"Comunicazioni" status:"pending" uuid:"e170d7ad-14bb-4364-b4f5-4893676c5949"]
+---
+time 1727950127
+old [description:"Informatica" entry:"1727901400" modified:"1727901400" status:"pending" uuid:"4e85d213-3c07-421c-b027-266c5ce66799"]
+new [description:"Informatica" entry:"1727901400" modified:"1727950127" project:"Informatica" status:"pending" uuid:"4e85d213-3c07-421c-b027-266c5ce66799"]
+---
+time 1727950345
+new [description:"Geometria e Algebra lineare" due:"1727906400" entry:"1727950345" modified:"1727950345" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+---
+time 1727950349
+new [description:"Geometria e Algebra lineare" due:"1727906400" entry:"1727950349" imask:"0" modified:"1727950345" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"4e289954-ad8c-4353-8bc3-8d981e4f80ff"]
+---
+time 1727950349
+new [description:"Geometria e Algebra lineare" due:"1727992800" entry:"1727950349" imask:"1" modified:"1727950345" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"49279cf5-2b94-4f01-aefc-a828c4ca557f"]
+---
+time 1727950349
+old [description:"Geometria e Algebra lineare" due:"1727906400" entry:"1727950345" modified:"1727950345" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+new [description:"Geometria e Algebra lineare" due:"1727906400" entry:"1727950345" mask:"--" modified:"1727950349" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+---
+time 1727950395
+new [description:"Analisi 1" due:"1727906400" entry:"1727950395" modified:"1727950395" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+---
+time 1727950404
+new [description:"Analisi 1" due:"1727906400" entry:"1727950404" imask:"0" modified:"1727950395" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"1500bb41-230e-4d72-a421-b629457ebebe"]
+---
+time 1727950404
+new [description:"Analisi 1" due:"1727992800" entry:"1727950404" imask:"1" modified:"1727950395" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"46a7e624-667e-46dd-9fe1-abb8129a097b"]
+---
+time 1727950404
+old [description:"Analisi 1" due:"1727906400" entry:"1727950395" modified:"1727950395" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+new [description:"Analisi 1" due:"1727906400" entry:"1727950395" mask:"--" modified:"1727950404" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+---
+time 1727950427
+new [description:"Analisi 2" due:"1727906400" entry:"1727950427" modified:"1727950427" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+---
+time 1727950430
+new [description:"Analisi 1" due:"1727906400" entry:"1727950430" modified:"1727950430" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+---
+time 1727950434
+new [description:"Analisi 2" due:"1727906400" entry:"1727950434" imask:"0" modified:"1727950427" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"6d63d694-b02d-4333-a97e-cf60c66b6fd9"]
+---
+time 1727950434
+new [description:"Analisi 2" due:"1727992800" entry:"1727950434" imask:"1" modified:"1727950427" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"fc42a2c0-0854-47d3-b0e7-84863a3dea38"]
+---
+time 1727950434
+old [description:"Analisi 2" due:"1727906400" entry:"1727950427" modified:"1727950427" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+new [description:"Analisi 2" due:"1727906400" entry:"1727950427" mask:"--" modified:"1727950434" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+---
+time 1727950434
+new [description:"Analisi 1" due:"1727906400" entry:"1727950434" imask:"0" modified:"1727950430" parent:"d804f41d-b481-4999-bb9b-4a5f287f5872" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"0b1c9675-9384-4416-bdf9-3a06761552cb"]
+---
+time 1727950434
+new [description:"Analisi 1" due:"1727992800" entry:"1727950434" imask:"1" modified:"1727950430" parent:"d804f41d-b481-4999-bb9b-4a5f287f5872" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"cc33887c-51a6-49e2-a280-39bf2493ea63"]
+---
+time 1727950434
+old [description:"Analisi 1" due:"1727906400" entry:"1727950430" modified:"1727950430" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+new [description:"Analisi 1" due:"1727906400" entry:"1727950430" mask:"--" modified:"1727950434" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+---
+time 1727950445
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" entry:"1727950445" modified:"1727950445" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+---
+time 1727950450
+new [description:"Fisica 1" due:"1727906400" entry:"1727950450" modified:"1727950450" project:"Fisica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+---
+time 1727950457
+new [description:"Reti logiche" due:"1727906400" entry:"1727950457" modified:"1727950457" project:"Elettronica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+---
+time 1727950462
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" entry:"1727950462" imask:"0" modified:"1727950445" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"acfff60d-1012-480f-acd0-8e0e9392b476"]
+---
+time 1727950462
+new [description:"Calcolo delle probabilità e statistica" due:"1727992800" entry:"1727950462" imask:"1" modified:"1727950445" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"2e40c3c9-9c2f-42e0-8f3a-f7e631d711b2"]
+---
+time 1727950462
+old [description:"Calcolo delle probabilità e statistica" due:"1727906400" entry:"1727950445" modified:"1727950445" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" entry:"1727950445" mask:"--" modified:"1727950462" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+---
+time 1727950462
+new [description:"Fisica 1" due:"1727906400" entry:"1727950462" imask:"0" modified:"1727950450" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"pending" uuid:"1d21e4d0-369f-4f2c-b3fe-10c3aecad78e"]
+---
+time 1727950462
+new [description:"Fisica 1" due:"1727992800" entry:"1727950462" imask:"1" modified:"1727950450" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"pending" uuid:"23feee9a-fc2b-435e-a74f-430fab889f79"]
+---
+time 1727950462
+old [description:"Fisica 1" due:"1727906400" entry:"1727950450" modified:"1727950450" project:"Fisica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+new [description:"Fisica 1" due:"1727906400" entry:"1727950450" mask:"--" modified:"1727950462" project:"Fisica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+---
+time 1727950462
+new [description:"Reti logiche" due:"1727906400" entry:"1727950462" imask:"0" modified:"1727950457" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"pending" uuid:"828a9b9b-d4e1-4a67-bb2e-a3d62032e271"]
+---
+time 1727950462
+new [description:"Reti logiche" due:"1727992800" entry:"1727950462" imask:"1" modified:"1727950457" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"pending" uuid:"5c74b341-097f-4b87-b25f-29b621c4722a"]
+---
+time 1727950462
+old [description:"Reti logiche" due:"1727906400" entry:"1727950457" modified:"1727950457" project:"Elettronica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+new [description:"Reti logiche" due:"1727906400" entry:"1727950457" mask:"--" modified:"1727950462" project:"Elettronica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+---
+time 1727950509
+old [description:"Analisi 1" due:"1727906400" entry:"1727950430" mask:"--" modified:"1727950434" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+new [description:"Analisi 1" due:"1727906400" entry:"1727950430" mask:"X-" modified:"1727950509" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+---
+time 1727950509
+old [description:"Analisi 1" due:"1727906400" entry:"1727950434" imask:"0" modified:"1727950430" parent:"d804f41d-b481-4999-bb9b-4a5f287f5872" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"0b1c9675-9384-4416-bdf9-3a06761552cb"]
+new [description:"Analisi 1" due:"1727906400" end:"1727950508" entry:"1727950434" imask:"0" modified:"1727950509" parent:"d804f41d-b481-4999-bb9b-4a5f287f5872" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"0b1c9675-9384-4416-bdf9-3a06761552cb"]
+---
+time 1727950512
+old [description:"Analisi 1" due:"1727906400" entry:"1727950430" mask:"X-" modified:"1727950509" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+new [description:"Analisi 1" due:"1727906400" entry:"1727950430" mask:"XX" modified:"1727950512" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+---
+time 1727950512
+old [description:"Analisi 1" due:"1727992800" entry:"1727950434" imask:"1" modified:"1727950430" parent:"d804f41d-b481-4999-bb9b-4a5f287f5872" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"cc33887c-51a6-49e2-a280-39bf2493ea63"]
+new [description:"Analisi 1" due:"1727992800" end:"1727950512" entry:"1727950434" imask:"1" modified:"1727950512" parent:"d804f41d-b481-4999-bb9b-4a5f287f5872" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"cc33887c-51a6-49e2-a280-39bf2493ea63"]
+---
+time 1727950512
+old [description:"Analisi 1" due:"1727906400" entry:"1727950430" mask:"XX" modified:"1727950512" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+new [description:"Analisi 1" due:"1727906400" end:"1727950512" entry:"1727950430" mask:"XX" modified:"1727950512" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"d804f41d-b481-4999-bb9b-4a5f287f5872"]
+---
+time 1727950564
+old [description:"Matematica" entry:"1727901400" modified:"1727950084" project:"Matematica" status:"pending" uuid:"c99a1faa-ff1f-4f95-817e-759126414c1f"]
+new [description:"Matematica" end:"1727950557" entry:"1727901400" modified:"1727950564" project:"Matematica" status:"deleted" uuid:"c99a1faa-ff1f-4f95-817e-759126414c1f"]
+---
+time 1727950565
+old [description:"Fisica" entry:"1727901400" modified:"1727950102" project:"Fisica" status:"pending" uuid:"85aeadd2-d809-440d-ba7d-aad8d04c3b0d"]
+new [description:"Fisica" end:"1727950564" entry:"1727901400" modified:"1727950565" project:"Fisica" status:"deleted" uuid:"85aeadd2-d809-440d-ba7d-aad8d04c3b0d"]
+---
+time 1727950566
+old [description:"Elettronica" entry:"1727901400" modified:"1727950105" project:"Elettronica" status:"pending" uuid:"cffc75c7-7da4-486a-8b6c-e63f6ee7c58c"]
+new [description:"Elettronica" end:"1727950565" entry:"1727901400" modified:"1727950566" project:"Elettronica" status:"deleted" uuid:"cffc75c7-7da4-486a-8b6c-e63f6ee7c58c"]
+---
+time 1727950567
+old [description:"Comunicazioni" entry:"1727901400" modified:"1727950109" project:"Comunicazioni" status:"pending" uuid:"e170d7ad-14bb-4364-b4f5-4893676c5949"]
+new [description:"Comunicazioni" end:"1727950566" entry:"1727901400" modified:"1727950567" project:"Comunicazioni" status:"deleted" uuid:"e170d7ad-14bb-4364-b4f5-4893676c5949"]
+---
+time 1727950568
+old [description:"Informatica" entry:"1727901400" modified:"1727950127" project:"Informatica" status:"pending" uuid:"4e85d213-3c07-421c-b027-266c5ce66799"]
+new [description:"Informatica" end:"1727950567" entry:"1727901400" modified:"1727950568" project:"Informatica" status:"deleted" uuid:"4e85d213-3c07-421c-b027-266c5ce66799"]
+---
+time 1727950570
+old [description:"Geometria e Algebra lineare" due:"1727906400" entry:"1727950345" mask:"--" modified:"1727950349" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+new [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950568" entry:"1727950345" mask:"--" modified:"1727950570" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+---
+time 1727950571
+old [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950568" entry:"1727950345" mask:"--" modified:"1727950570" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+new [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950568" entry:"1727950345" mask:"X-" modified:"1727950571" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+---
+time 1727950571
+old [description:"Geometria e Algebra lineare" due:"1727906400" entry:"1727950349" imask:"0" modified:"1727950345" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"4e289954-ad8c-4353-8bc3-8d981e4f80ff"]
+new [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950571" entry:"1727950349" imask:"0" modified:"1727950571" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4e289954-ad8c-4353-8bc3-8d981e4f80ff"]
+---
+time 1727950571
+old [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950568" entry:"1727950345" mask:"X-" modified:"1727950571" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+new [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950568" entry:"1727950345" mask:"XX" modified:"1727950571" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"b5ea8add-9e17-45d5-9615-7fd2c8687c48"]
+---
+time 1727950571
+old [description:"Geometria e Algebra lineare" due:"1727992800" entry:"1727950349" imask:"1" modified:"1727950345" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"49279cf5-2b94-4f01-aefc-a828c4ca557f"]
+new [description:"Geometria e Algebra lineare" due:"1727992800" end:"1727950571" entry:"1727950349" imask:"1" modified:"1727950571" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"49279cf5-2b94-4f01-aefc-a828c4ca557f"]
+---
+time 1727950572
+old [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950571" entry:"1727950349" imask:"0" modified:"1727950571" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4e289954-ad8c-4353-8bc3-8d981e4f80ff"]
+new [description:"Geometria e Algebra lineare" due:"1727906400" end:"1727950571" entry:"1727950349" imask:"0" modified:"1727950572" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4e289954-ad8c-4353-8bc3-8d981e4f80ff"]
+---
+time 1727950575
+old [description:"Geometria e Algebra lineare" due:"1727992800" end:"1727950571" entry:"1727950349" imask:"1" modified:"1727950571" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"49279cf5-2b94-4f01-aefc-a828c4ca557f"]
+new [description:"Geometria e Algebra lineare" due:"1727992800" end:"1727950574" entry:"1727950349" imask:"1" modified:"1727950575" parent:"b5ea8add-9e17-45d5-9615-7fd2c8687c48" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"49279cf5-2b94-4f01-aefc-a828c4ca557f"]
+---
+time 1727950578
+old [description:"Analisi 1" due:"1727906400" entry:"1727950395" mask:"--" modified:"1727950404" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+new [description:"Analisi 1" due:"1727906400" end:"1727950577" entry:"1727950395" mask:"--" modified:"1727950578" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+---
+time 1727950579
+old [description:"Analisi 1" due:"1727906400" end:"1727950577" entry:"1727950395" mask:"--" modified:"1727950578" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+new [description:"Analisi 1" due:"1727906400" end:"1727950577" entry:"1727950395" mask:"X-" modified:"1727950579" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+---
+time 1727950579
+old [description:"Analisi 1" due:"1727906400" entry:"1727950404" imask:"0" modified:"1727950395" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"1500bb41-230e-4d72-a421-b629457ebebe"]
+new [description:"Analisi 1" due:"1727906400" end:"1727950579" entry:"1727950404" imask:"0" modified:"1727950579" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"1500bb41-230e-4d72-a421-b629457ebebe"]
+---
+time 1727950579
+old [description:"Analisi 1" due:"1727906400" end:"1727950577" entry:"1727950395" mask:"X-" modified:"1727950579" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+new [description:"Analisi 1" due:"1727906400" end:"1727950577" entry:"1727950395" mask:"XX" modified:"1727950579" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5"]
+---
+time 1727950579
+old [description:"Analisi 1" due:"1727992800" entry:"1727950404" imask:"1" modified:"1727950395" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"46a7e624-667e-46dd-9fe1-abb8129a097b"]
+new [description:"Analisi 1" due:"1727992800" end:"1727950579" entry:"1727950404" imask:"1" modified:"1727950579" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"46a7e624-667e-46dd-9fe1-abb8129a097b"]
+---
+time 1727950580
+old [description:"Analisi 1" due:"1727906400" end:"1727950579" entry:"1727950404" imask:"0" modified:"1727950579" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"1500bb41-230e-4d72-a421-b629457ebebe"]
+new [description:"Analisi 1" due:"1727906400" end:"1727950579" entry:"1727950404" imask:"0" modified:"1727950580" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"1500bb41-230e-4d72-a421-b629457ebebe"]
+---
+time 1727950584
+old [description:"Analisi 1" due:"1727992800" end:"1727950579" entry:"1727950404" imask:"1" modified:"1727950579" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"46a7e624-667e-46dd-9fe1-abb8129a097b"]
+new [description:"Analisi 1" due:"1727992800" end:"1727950582" entry:"1727950404" imask:"1" modified:"1727950584" parent:"fa938a8d-3a83-4aa3-b5c8-53af58bf86d5" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"46a7e624-667e-46dd-9fe1-abb8129a097b"]
+---
+time 1727950585
+old [description:"Analisi 2" due:"1727906400" entry:"1727950427" mask:"--" modified:"1727950434" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+new [description:"Analisi 2" due:"1727906400" end:"1727950585" entry:"1727950427" mask:"--" modified:"1727950585" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+---
+time 1727950586
+old [description:"Analisi 2" due:"1727906400" end:"1727950585" entry:"1727950427" mask:"--" modified:"1727950585" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+new [description:"Analisi 2" due:"1727906400" end:"1727950585" entry:"1727950427" mask:"X-" modified:"1727950586" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+---
+time 1727950586
+old [description:"Analisi 2" due:"1727906400" entry:"1727950434" imask:"0" modified:"1727950427" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"6d63d694-b02d-4333-a97e-cf60c66b6fd9"]
+new [description:"Analisi 2" due:"1727906400" end:"1727950586" entry:"1727950434" imask:"0" modified:"1727950586" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"6d63d694-b02d-4333-a97e-cf60c66b6fd9"]
+---
+time 1727950586
+old [description:"Analisi 2" due:"1727906400" end:"1727950585" entry:"1727950427" mask:"X-" modified:"1727950586" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+new [description:"Analisi 2" due:"1727906400" end:"1727950585" entry:"1727950427" mask:"XX" modified:"1727950586" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"4780fc0b-61c4-4e25-b9a5-78dff5423b24"]
+---
+time 1727950586
+old [description:"Analisi 2" due:"1727992800" entry:"1727950434" imask:"1" modified:"1727950427" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"fc42a2c0-0854-47d3-b0e7-84863a3dea38"]
+new [description:"Analisi 2" due:"1727992800" end:"1727950586" entry:"1727950434" imask:"1" modified:"1727950586" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fc42a2c0-0854-47d3-b0e7-84863a3dea38"]
+---
+time 1727950586
+old [description:"Analisi 2" due:"1727906400" end:"1727950586" entry:"1727950434" imask:"0" modified:"1727950586" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"6d63d694-b02d-4333-a97e-cf60c66b6fd9"]
+new [description:"Analisi 2" due:"1727906400" end:"1727950586" entry:"1727950434" imask:"0" modified:"1727950586" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"6d63d694-b02d-4333-a97e-cf60c66b6fd9"]
+---
+time 1727950587
+old [description:"Analisi 2" due:"1727992800" end:"1727950586" entry:"1727950434" imask:"1" modified:"1727950586" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fc42a2c0-0854-47d3-b0e7-84863a3dea38"]
+new [description:"Analisi 2" due:"1727992800" end:"1727950587" entry:"1727950434" imask:"1" modified:"1727950587" parent:"4780fc0b-61c4-4e25-b9a5-78dff5423b24" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"fc42a2c0-0854-47d3-b0e7-84863a3dea38"]
+---
+time 1727950589
+old [description:"Calcolo delle probabilità e statistica" due:"1727906400" entry:"1727950445" mask:"--" modified:"1727950462" project:"Matematica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950589" entry:"1727950445" mask:"--" modified:"1727950589" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+---
+time 1727950591
+old [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950589" entry:"1727950445" mask:"--" modified:"1727950589" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950589" entry:"1727950445" mask:"X-" modified:"1727950591" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+---
+time 1727950591
+old [description:"Calcolo delle probabilità e statistica" due:"1727906400" entry:"1727950462" imask:"0" modified:"1727950445" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"acfff60d-1012-480f-acd0-8e0e9392b476"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950591" entry:"1727950462" imask:"0" modified:"1727950591" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"acfff60d-1012-480f-acd0-8e0e9392b476"]
+---
+time 1727950591
+old [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950589" entry:"1727950445" mask:"X-" modified:"1727950591" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950589" entry:"1727950445" mask:"XX" modified:"1727950591" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"da384df7-f554-40db-b4ad-550e0792ff15"]
+---
+time 1727950591
+old [description:"Calcolo delle probabilità e statistica" due:"1727992800" entry:"1727950462" imask:"1" modified:"1727950445" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"pending" uuid:"2e40c3c9-9c2f-42e0-8f3a-f7e631d711b2"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727992800" end:"1727950591" entry:"1727950462" imask:"1" modified:"1727950591" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"2e40c3c9-9c2f-42e0-8f3a-f7e631d711b2"]
+---
+time 1727950591
+old [description:"Fisica 1" due:"1727906400" entry:"1727950450" mask:"--" modified:"1727950462" project:"Fisica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+new [description:"Fisica 1" due:"1727906400" end:"1727950591" entry:"1727950450" mask:"--" modified:"1727950591" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+---
+time 1727950592
+old [description:"Fisica 1" due:"1727906400" end:"1727950591" entry:"1727950450" mask:"--" modified:"1727950591" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+new [description:"Fisica 1" due:"1727906400" end:"1727950591" entry:"1727950450" mask:"X-" modified:"1727950592" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+---
+time 1727950592
+old [description:"Fisica 1" due:"1727906400" entry:"1727950462" imask:"0" modified:"1727950450" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"pending" uuid:"1d21e4d0-369f-4f2c-b3fe-10c3aecad78e"]
+new [description:"Fisica 1" due:"1727906400" end:"1727950592" entry:"1727950462" imask:"0" modified:"1727950592" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"1d21e4d0-369f-4f2c-b3fe-10c3aecad78e"]
+---
+time 1727950592
+old [description:"Fisica 1" due:"1727906400" end:"1727950591" entry:"1727950450" mask:"X-" modified:"1727950592" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+new [description:"Fisica 1" due:"1727906400" end:"1727950591" entry:"1727950450" mask:"XX" modified:"1727950592" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"d70020ee-3011-4539-94f8-8eda6f8d2aee"]
+---
+time 1727950592
+old [description:"Fisica 1" due:"1727992800" entry:"1727950462" imask:"1" modified:"1727950450" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"pending" uuid:"23feee9a-fc2b-435e-a74f-430fab889f79"]
+new [description:"Fisica 1" due:"1727992800" end:"1727950592" entry:"1727950462" imask:"1" modified:"1727950592" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"23feee9a-fc2b-435e-a74f-430fab889f79"]
+---
+time 1727950592
+old [description:"Reti logiche" due:"1727906400" entry:"1727950457" mask:"--" modified:"1727950462" project:"Elettronica" recur:"daily" rtype:"periodic" status:"recurring" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+new [description:"Reti logiche" due:"1727906400" end:"1727950592" entry:"1727950457" mask:"--" modified:"1727950592" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+---
+time 1727950593
+old [description:"Reti logiche" due:"1727906400" end:"1727950592" entry:"1727950457" mask:"--" modified:"1727950592" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+new [description:"Reti logiche" due:"1727906400" end:"1727950592" entry:"1727950457" mask:"X-" modified:"1727950593" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+---
+time 1727950593
+old [description:"Reti logiche" due:"1727906400" entry:"1727950462" imask:"0" modified:"1727950457" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"pending" uuid:"828a9b9b-d4e1-4a67-bb2e-a3d62032e271"]
+new [description:"Reti logiche" due:"1727906400" end:"1727950593" entry:"1727950462" imask:"0" modified:"1727950593" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"828a9b9b-d4e1-4a67-bb2e-a3d62032e271"]
+---
+time 1727950593
+old [description:"Reti logiche" due:"1727906400" end:"1727950592" entry:"1727950457" mask:"X-" modified:"1727950593" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+new [description:"Reti logiche" due:"1727906400" end:"1727950592" entry:"1727950457" mask:"XX" modified:"1727950593" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"692719af-6014-438c-a6e1-964da2b42898"]
+---
+time 1727950593
+old [description:"Reti logiche" due:"1727992800" entry:"1727950462" imask:"1" modified:"1727950457" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"pending" uuid:"5c74b341-097f-4b87-b25f-29b621c4722a"]
+new [description:"Reti logiche" due:"1727992800" end:"1727950593" entry:"1727950462" imask:"1" modified:"1727950593" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"5c74b341-097f-4b87-b25f-29b621c4722a"]
+---
+time 1727950593
+old [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950591" entry:"1727950462" imask:"0" modified:"1727950591" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"acfff60d-1012-480f-acd0-8e0e9392b476"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727906400" end:"1727950593" entry:"1727950462" imask:"0" modified:"1727950593" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"acfff60d-1012-480f-acd0-8e0e9392b476"]
+---
+time 1727950594
+old [description:"Calcolo delle probabilità e statistica" due:"1727992800" end:"1727950591" entry:"1727950462" imask:"1" modified:"1727950591" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"2e40c3c9-9c2f-42e0-8f3a-f7e631d711b2"]
+new [description:"Calcolo delle probabilità e statistica" due:"1727992800" end:"1727950594" entry:"1727950462" imask:"1" modified:"1727950594" parent:"da384df7-f554-40db-b4ad-550e0792ff15" project:"Matematica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"2e40c3c9-9c2f-42e0-8f3a-f7e631d711b2"]
+---
+time 1727950594
+old [description:"Fisica 1" due:"1727906400" end:"1727950592" entry:"1727950462" imask:"0" modified:"1727950592" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"1d21e4d0-369f-4f2c-b3fe-10c3aecad78e"]
+new [description:"Fisica 1" due:"1727906400" end:"1727950594" entry:"1727950462" imask:"0" modified:"1727950594" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"1d21e4d0-369f-4f2c-b3fe-10c3aecad78e"]
+---
+time 1727950595
+old [description:"Fisica 1" due:"1727992800" end:"1727950592" entry:"1727950462" imask:"1" modified:"1727950592" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"23feee9a-fc2b-435e-a74f-430fab889f79"]
+new [description:"Fisica 1" due:"1727992800" end:"1727950595" entry:"1727950462" imask:"1" modified:"1727950595" parent:"d70020ee-3011-4539-94f8-8eda6f8d2aee" project:"Fisica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"23feee9a-fc2b-435e-a74f-430fab889f79"]
+---
+time 1727950596
+old [description:"Reti logiche" due:"1727906400" end:"1727950593" entry:"1727950462" imask:"0" modified:"1727950593" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"828a9b9b-d4e1-4a67-bb2e-a3d62032e271"]
+new [description:"Reti logiche" due:"1727906400" end:"1727950596" entry:"1727950462" imask:"0" modified:"1727950596" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"828a9b9b-d4e1-4a67-bb2e-a3d62032e271"]
+---
+time 1727950597
+old [description:"Reti logiche" due:"1727992800" end:"1727950593" entry:"1727950462" imask:"1" modified:"1727950593" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"5c74b341-097f-4b87-b25f-29b621c4722a"]
+new [description:"Reti logiche" due:"1727992800" end:"1727950597" entry:"1727950462" imask:"1" modified:"1727950597" parent:"692719af-6014-438c-a6e1-964da2b42898" project:"Elettronica" recur:"daily" rtype:"periodic" status:"deleted" uuid:"5c74b341-097f-4b87-b25f-29b621c4722a"]
+---
+time 1727950598
+old [description:"Meditazione" end:"1727900951" entry:"1727900918" modified:"1727900951" status:"completed" uuid:"beee4294-4c3b-407b-b4cd-aff78a528bc6"]
+new [description:"Meditazione" end:"1727900951" entry:"1727900918" modified:"1727950598" status:"deleted" uuid:"beee4294-4c3b-407b-b4cd-aff78a528bc6"]
+---
+time 1727950598
+old [description:"Meditazione" end:"1727900896" entry:"1727900825" modified:"1727900896" status:"completed" uuid:"7e7d8d70-7b32-4086-834b-0d106209226e"]
+new [description:"Meditazione" end:"1727900896" entry:"1727900825" modified:"1727950598" status:"deleted" uuid:"7e7d8d70-7b32-4086-834b-0d106209226e"]
+---
+time 1727950769
+new [description:"Università" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" uuid:"0039ebca-e4b9-487f-ad73-fedc7c5486d0"]
+---
+time 1727950769
+new [description:"Geometria e Algebra lineare" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Matematica" tags_Matematica:"x" uuid:"0b66dcb7-a415-4fbb-9fbe-d50df5bf3761"]
+---
+time 1727950769
+new [description:"Analisi 1" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Matematica" tags_Matematica:"x" uuid:"8931cb32-6c9b-401c-8908-636986b50a83"]
+---
+time 1727950769
+new [description:"Analisi 2" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Matematica" tags_Matematica:"x" uuid:"3a2d1a7b-5016-44fb-b0ca-582d977d7de2"]
+---
+time 1727950769
+new [description:"Calcolo delle probabilità e statistica" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Matematica" tags_Matematica:"x" uuid:"ca15392e-b0ca-492b-b7ae-3602562b1fd6"]
+---
+time 1727950769
+new [description:"Fisica 1" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Fisica" tags_Fisica:"x" uuid:"8779dc24-e5a7-4765-8f7a-5d817bd9e5e9"]
+---
+time 1727950769
+new [description:"Fisica 2" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Fisica" tags_Fisica:"x" uuid:"086ba955-c0d4-49e2-8c10-c77a317e1d07"]
+---
+time 1727950769
+new [description:"Reti logiche" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Elettronica" tags_Elettronica:"x" uuid:"a3dfb0d9-1dcf-4310-a18a-c32f6c2c2f10"]
+---
+time 1727950769
+new [description:"Reti" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Comunicazioni" tags_Comunicazioni:"x" uuid:"c9139d5b-070d-4b44-841d-09daeff055b1"]
+---
+time 1727950769
+new [description:"Elaborazione dei segnali" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Comunicazioni" tags_Comunicazioni:"x" uuid:"059b086b-12bd-4468-8e59-930da787552b"]
+---
+time 1727950769
+new [description:"Programmazione 1" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Informatica" tags_Informatica:"x" uuid:"ea69f8dc-0624-440b-a96f-a20a918187c8"]
+---
+time 1727950769
+new [description:"Programmazione 2" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Informatica" tags_Informatica:"x" uuid:"05c260fc-b7ce-4c7e-ae35-4abff6b2845a"]
+---
+time 1727950769
+new [description:"Programmazione avanzata" entry:"1727950769" modified:"1727950769" project:"Università" status:"pending" tags:"Informatica" tags_Informatica:"x" uuid:"eb0d971d-142c-474f-bf4d-8d0c80c662af"]
+---
