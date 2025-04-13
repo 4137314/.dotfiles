@@ -4,13 +4,24 @@ return {
     event = "BufReadPre",
     config = function()
         require("ibl").setup({
-            indent = { char = "|" },  -- Carattere per le linee di indentazione
-            scope = { enabled = true },  -- Evidenzia l'indentazione attuale
+            indent = {
+                char = "│",
+            },
+            scope = {
+                enabled = true,
+                highlight = { "IblScope" },
+                show_start = false,
+                show_end = false,
+                include = {
+                    node_type = {
+                        ["*"] = { "*" },  -- applica a tutti i tipi di nodo AST
+                    },
+                },
+            },
         })
-    end
+
+        -- Colore dell'intera indentazione attiva
+        vim.api.nvim_set_hl(0, "IblScope", { fg = "#888888", nocombine = true })
+    end,
 }
-
-
-
-
 
