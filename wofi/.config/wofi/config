@@ -1,0 +1,16 @@
+show = drun
+allow_images = true
+allow_markup = true
+# prompt =   Cerca...
+insensitive = true
+hide_scroll = true
+term = kitty
+lines = 10
+columns = 1
+width = 500
+location = top
+always_parse_args = true
+dynamic_lines = true
+print_command = true
+no_actions = true
+
